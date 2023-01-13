@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".INTP">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="INTP의 대한 직업 추천"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="1순위 : 컴퓨터 프로그래머"
+            android:textSize="25sp"
+            android:textColor="#E91E63"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/programmer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="컴퓨터 프로그램의 논리나 알고리즘을 설계하고 프로그램을 작성하고 테스트하는 사람. 프로그래머는 소프트웨어 엔지니어, 컴퓨터과학자, 해커로 간주되기도 한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="2순위 : 분석가"
+            android:textSize="25sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/analist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="분석가는 대기업 재무팀이나 투자부서, 증권사, 경제연구소, 투자은행, 자산운용사, 벤처캐피탈, 빅4 회계법인, 컨설팅 등에서 주식종목, 경제 시황, 시장 및 경영 현황 등을 분석하는 직업이다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="3순위 : 건축가"
+            android:textSize="25sp"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/architect" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="건축을 총괄하는 직업. 건축물의 설계부터 시공까지 모든 것을 총괄한다. 의식주 중 '주'를 담당하고 있는 만큼 인류가 꼭 필요로 하는 직업이자 가장 오래된 직업 중의 하나다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

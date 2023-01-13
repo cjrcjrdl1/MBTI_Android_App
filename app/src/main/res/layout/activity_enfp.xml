@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".ENFP">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="ENFP의 대한 직업 추천"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="1순위 : 언론인"
+            android:textSize="25sp"
+            android:textColor="#E91E63"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/journalist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="주로, 기사나 뉴스보도의 내용을 만드는 사람, 또는 그런 사람들을 총괄하는 편집장 내지는 언론사 사장을 지칭하기도 한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="2순위 : 광고 크리에이티브 디렉터"
+            android:textSize="25sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/ad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="크리에이티브 디렉터는 다양한 광고파트를 총 지휘하고 감독하여 광고주에게 직접 정확한 메시지를 전달하고 세일즈를 하는 직업이라고 할 수 있다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="3순위 : 행사 기획자"
+            android:textSize="25sp"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/event" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="행사기획자는 다양한 행사·이벤트를 기획하고 행사 개최 계획 및 예산을 편성하고 행사장 제반시설을 점검하는 등 행사 개최에 필요한 업무를 총괄한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

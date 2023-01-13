@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".ESTJ">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="ESTJ의 대한 직업 추천"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="1순위 : 보험중개인"
+            android:textSize="25sp"
+            android:textColor="#E91E63"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/insurance" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="보험중개인은 각기 다른 보험회사의 보험상품을 비교하여 보험계약자에게 보험상품을 추천하고 보험계약자와 보험사업자 사이에 독립적으로 보험계약 체결을 중개한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="2순위 : 약사"
+            android:textSize="25sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/parmacist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="약사는 의사의 처방 또는 환자의 상태에 따라 공인된 처방에 의해 약품을 조제ㆍ판매하며, 환자에 대한 약력관리와 복약지도 등의 업무를 수행한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="3순위 : 변호사"
+            android:textSize="25sp"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/lawyer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="변호사는 당사자 혹은 기타 관계인이나 단체의 의뢰에 의하여 소송에 관한 행위 및 행정처분의 청구에 관한 대리행위와 기타 일반법률 업무를 수행한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

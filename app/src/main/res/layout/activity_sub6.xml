@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".SubActivity6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="질문18) 여행 가기 전 날 나의 상태는?"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleep" />
+
+        <RadioGroup
+            android:id="@+id/rg_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_left18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="늦잠자면 어떡하지?" />
+
+            <RadioButton
+                android:id="@+id/rb_right18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="짐만 챙기고 바로 잔다" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="질문19) 교수님께서 과제를 내주셨을 때 당신의 모습은?"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            app:srcCompat="@drawable/homework" />
+
+        <RadioGroup
+            android:id="@+id/rg_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_left19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="미리미리 계획을 세워서 한다" />
+
+            <RadioButton
+                android:id="@+id/rb_right19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="데드라인에 닥쳐서 한다" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="질문20) 일상생활 루틴이 어떻게 되는가?"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            app:srcCompat="@drawable/hamster" />
+
+        <RadioGroup
+            android:id="@+id/rg_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_left20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="반복되는 생활 루틴 선호" />
+
+            <RadioButton
+                android:id="@+id/rb_right20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:buttonTint="#FF3399"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="쳇바퀴같은 인생은 질색이므로 매일매일 변화가 있어야 한다" />
+        </RadioGroup>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backbtn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="45dp"
+                android:background="@drawable/leftbtn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="45dp"
+                android:background="@drawable/rightbtn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".ESFJ">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="ESFJ의 대한 직업 추천"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="1순위 : 영업 담당자"
+            android:textSize="25sp"
+            android:textColor="#E91E63"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/sales" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="회사의 사업계획에 맞춘 전체 매출목표와 영업 계획을 수립한다. 상품별/지역별/대상별 영업계획과 전략을 수립하는 것을 담당한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="2순위 : 간호사"
+            android:textSize="25sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/nurse" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="간호사는 의사의 진료를 돕고 의사의 처방이나 규정된 간호기술에 따라 치료를 행한다. 의사 부재 시에는 비상조치를 취하기도 하며, 또한 환자의 상태를 점검, 기록하고 환자나 가족들에게 치료, 질병 예방에 대한 설명을 해준다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="3순위 : 사회복지사"
+            android:textSize="25sp"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/social_worker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="사회복지사는 학교, 병원, 수용시설, 비수용시설, 국가기관 등에서 아동, 청소년, 장애인, 노인, 여성 등을 대상으로 그들의 재활과 사회복귀를 돕기 위해 사정, 진단, 상담, 프로그램 개발, 기획, 실시, 평가, 지원, 교육 등의 업무를 수행한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

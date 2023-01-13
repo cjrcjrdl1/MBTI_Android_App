@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".ISFJ">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="ISFJ의 대한 직업 추천"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="1순위 : 치과 의사"
+            android:textSize="25sp"
+            android:textColor="#E91E63"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/dentist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="구강(치아 및 구강조직), 턱관절, 악골, 안면 부위의 진료에 특화된 의료인. 신체에 발생하는 질병이나 손상 중 구강 및 악안면 부위의 병을 의학적으로 진단 및 치료하는 일을 업으로 하며 이에 독점적 권한을 가진 국가면허를 취득한 사람이다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="2순위 : 초등학교 교사"
+            android:textSize="25sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/teacher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="초등학교 교사는 초등학교에서 학생들에게 초등교육 과정을 가르치고, 바른 인성과 품행을 가지도록 지도하며 공문서 처리 등 행정 업무를 한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="3순위 : 사서"
+            android:textSize="25sp"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/librarian" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="사서는 도서관 및 자료실에서 도서 및 자료를 관리하고 이용자가 원하는 자료를 대출 및 수납하는 업무를 한다."
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/andact"
+    tools:context=".SubActivity7">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="귀하의 MBTI는"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bmjua"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/jalnan"
+            android:text="결과 입니다"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pointTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/jalnan"
+            android:text="결과 입니다"
+            android:textColor="#FDF900"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bmjua"
+            android:text="에너지"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:fontFamily="@font/jalnan"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="E" />
+
+
+            <ProgressBar
+                android:id="@+id/pbar1"
+                android:progressDrawable="@drawable/progressbar_progressbar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:max="5"
+                android:progressTint="#3B9A44"
+                android:progressBackgroundTint="#ff00ff"
+                android:progress="3"
+                android:progressBackgroundTintMode="src_over"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:textColor="#D68B07"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="I" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bmjua"
+            android:text="인식"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="S"
+                android:textAlignment="center"
+                android:textColor="#B1199D"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/pbar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:max="5"
+                android:progressBackgroundTint="#ff00ff"
+                android:progressBackgroundTintMode="src_over"
+                android:progressDrawable="@drawable/progressbar_progressbar1"
+                android:progressTint="#3B9A44" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/jalnan"
+                android:gravity="center"
+                android:text="N"
+                android:textAlignment="center"
+                android:textColor="#069F1F"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bmjua"
+            android:text="판단"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:textColor="#87B51C"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/jalnan"
+                android:textAlignment="center"
+                android:text="T" />
+
+            <ProgressBar
+                android:id="@+id/pbar3"
+                android:progressDrawable="@drawable/progressbar_progressbar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:max="5"
+                android:progressTint="#3B9A44"
+                android:progressBackgroundTint="#ff00ff"
+                android:progressBackgroundTintMode="src_over"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#0F6EAE"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:fontFamily="@font/jalnan"
+                android:textAlignment="center"
+                android:text="F" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bmjua"
+            android:text="생활"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:textColor="#3430AA"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:fontFamily="@font/jalnan"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="J" />
+
+            <ProgressBar
+                android:id="@+id/pbar4"
+                android:progressDrawable="@drawable/progressbar_progressbar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:max="5"
+                android:progressTint="#3B9A44"
+                android:progressBackgroundTint="#ff00ff"
+                android:progressBackgroundTintMode="src_over"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#8F5807"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:fontFamily="@font/jalnan"
+                android:textAlignment="center"
+                android:text="P" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/introTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="결과값의 설명"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="MBTI와 직업 간의 연관성"
+            android:textSize="30sp"
+            android:textColor="#9C27B0"
+            android:fontFamily="@font/jalnan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/jobTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="연관성의 내용 설명"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/job"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
