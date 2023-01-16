@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/launch"
-        android:label="MBTI 검사지"
+        android:label="MBTI 성향분석과 직업분석 서비스"
         android:roundIcon="@mipmap/launch_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
