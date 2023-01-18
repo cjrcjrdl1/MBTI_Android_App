@@ -1,16 +1,16 @@
-package com.example.project;
+package com.example.chosunmbti;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-public class ISTJ extends AppCompatActivity {
+public class ESFP extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_istj);
+        setContentView(R.layout.activity_esfp);
 
         Intent intent = getIntent();
 

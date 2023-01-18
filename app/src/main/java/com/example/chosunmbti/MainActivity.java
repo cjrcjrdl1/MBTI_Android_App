@@ -1,4 +1,4 @@
-package com.example.project;
+package com.example.chosunmbti;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -6,27 +6,24 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class NoticeActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
-    private AppCompatButton btn;
+    private AppCompatButton mainBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notice);
+        setContentView(R.layout.activity_main);
 
-        getIntent();
-        btn = findViewById(R.id.btn);
+        mainBtn = findViewById(R.id.mainBtn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        mainBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(NoticeActivity.this, SubActivity.class);
+                Intent intent = new Intent(MainActivity.this, NoticeActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }

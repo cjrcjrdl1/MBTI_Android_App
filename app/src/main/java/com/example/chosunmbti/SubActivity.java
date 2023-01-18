@@ -1,4 +1,4 @@
-package com.example.project;
+package com.example.chosunmbti;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -6,13 +6,11 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class SubActivity extends AppCompatActivity {
     public static ArrayList<String> result = new ArrayList<String>();

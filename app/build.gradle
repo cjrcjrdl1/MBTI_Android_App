@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.project'
+    namespace 'com.example.chosunmbti'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.project"
+        applicationId "com.example.chosunmbti"
         minSdk 22
         targetSdk 32
         versionCode 1

@@ -1,7 +1,7 @@
-package com.example.project;
+package com.example.chosunmbti;
 
-import static com.example.project.SubActivity.MBTI;
-import static com.example.project.SubActivity.result;
+import static com.example.chosunmbti.SubActivity.MBTI;
+import static com.example.chosunmbti.SubActivity.result;
 
 import androidx.appcompat.app.AppCompatActivity;
 

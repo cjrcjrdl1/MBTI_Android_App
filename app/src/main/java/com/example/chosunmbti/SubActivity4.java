@@ -1,6 +1,6 @@
-package com.example.project;
+package com.example.chosunmbti;
 
-import static com.example.project.SubActivity.result;
+import static com.example.chosunmbti.SubActivity.result;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -8,7 +8,6 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
