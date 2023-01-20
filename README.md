@@ -1,2 +1,2 @@
 # MBTI_Android_App
-MBTI_Android_App_Team_Project
+MBTI_Android_App_Project
